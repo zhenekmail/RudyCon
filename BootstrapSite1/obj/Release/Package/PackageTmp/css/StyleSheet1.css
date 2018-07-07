@@ -1,0 +1,67 @@
+﻿body {
+    background: #282828; /* Цвет фона */
+    color: white; /* Цвет текста */
+}
+
+.font_rudy {
+    font: 22pt "Comic Sans MS";
+    color: yellow;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+}
+
+.font_navbar {
+    font: 700 16pt scripts;
+}
+
+.font1 {
+    font: 17pt "Feast of Flesh BB(RUS BY LYAJKA";
+    letter-spacing: 1px;
+}
+
+.font2 {
+    font: 12pt "Comic Sans MS";
+}
+
+.font3 {
+    font: 700 20pt "A.C.M.E";
+    color: white;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+}
+
+.font4 {
+    font: 700 15pt "A.C.M.E";
+}
+
+.font5 {
+    font: 30pt "RUSCheap stealer";
+}
+
+.font_contact {
+    font: 25pt Pop Warner;
+    text-shadow: black 2px 2px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+}
+
+.shadow {
+    text-shadow: black 1px 1px 0, black 2px 2px 0, black 1px 1px 0, black 2px 2px 0, black 2px 2px 0;
+}
+
+.shadow_img {
+    box-shadow: 0 5px 20px black; /* Параметры тени */
+}
+
+.font_contact_2 {
+    font: 22pt Pop Warner;
+}
+
+.font_contact_1 {
+    font: 17pt Cambria Math;
+    text-shadow: black 2px 2px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+}
+
+.partners {
+    opacity:1; 
+}
+
+.partners:hover {
+    opacity: .50;
+}
