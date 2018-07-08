@@ -109,6 +109,21 @@
 .section-about {
     background-color: #115714;
     color:yellow;
+    padding: 15px 15px 15px 15px;
     /* background-image: url(/images/fon3.jpg); */
 }
 
+.thumb-wrap {
+  position: relative;
+  padding-bottom: 75%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
