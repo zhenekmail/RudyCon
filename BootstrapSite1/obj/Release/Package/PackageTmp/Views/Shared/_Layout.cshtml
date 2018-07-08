@@ -6,116 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RudyCon - @ViewBag.Title</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap
     <link href="@Url.Content("/css/bootstrap.css")" rel="stylesheet">
-    <link href="@Url.Content("/css/modern-business.css")" rel="stylesheet">
+    <link href="@Url.Content("/css/modern-business.css")" rel="stylesheet"> -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        body {
-            background: #282828; /* Цвет фона */
-            color: white ; /* Цвет текста */
-        }
-        .font_rudy{
-            font: 25pt Ceviche One;  
-             text-shadow: black 1px 1px 0, black -1px -1px 0, 
-                 black -1px 1px 0, black 1px -1px 0;
-        }
-        .font_navbar{
-            font: 13pt "Comic Sans MS";  
-        }
-        .font1{
-            font: 17pt "Feast of Flesh BB(RUS BY LYAJKA";  
-                letter-spacing: 1px;
 
-        }
-        .font2{
-            font: 12pt "Comic Sans MS";
-        }
-        .font3{
-            font: 19pt Bronx Bystreets;  
-            color: white;
-             text-shadow: black 1px 1px 0, black -1px -1px 0, 
-                 black -1px 1px 0, black 1px -1px 0;
-        }
-        .font4{
-            font: 700 15pt "A.C.M.E";  
-        }
-        .font5{
-            font: 30pt "RUSCheap stealer"
-        }
-        .font_contact{
-            font: 25pt Cambria Math;  
-            text-shadow: black 2px 2px 0, black -1px -1px 0, 
-                 black -1px 1px 0, black 1px -1px 0;
-        }
-         .shadow{
-            text-shadow: black 1px 1px 0, black 2px 2px 0, 
-                 black 1px 1px 0, black 2px 2px 0, 
-                 black 2px 2px 0;
-        }
-         .shadow_img{
-             box-shadow: 0 5px 20px black; /* Параметры тени */
-         }
-        
-        .font_contact_1{
-            font: 17pt Cambria Math;  
-            text-shadow: black 2px 2px 0, black -1px -1px 0, 
-                 black -1px 1px 0, black 1px -1px 0;
-        }
-         .font_menu{
-            font: 700 33pt "Feast of Flesh BB(RUS BY LYAJKA"; 
-            color: white; 
-            text-shadow: black 2px 2px 0, black -4px -1px 0, 
-                 black -1px 1px 0, black 1px -1px 0;
-         
-        }
-    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
+
+    @Styles.Render("~/css/bootstrap.css")
+    @Styles.Render("~/css/modern-business.css")
+    @Styles.Render("~/css/StyleSheet1.css")
+    @Styles.Render("~/css/media.css")
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
-        <div class="container ">      
-            <div class="navbar-header font_rudy">
-                <img src="https://image.ibb.co/kM6RFd/image.png" width="45" height="45" class="navbar-btn">
-                
-                @Html.ActionLink("RudyCon", "Index", new { controller = "Home" }, new { @class = "navbar-brand" })
-                
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="/images/logo1.png" width="45" height="45" class="navbar-btn">
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse font_navbar">
-                <ul class="nav navbar-nav navbar-right">
-                    
-                   <!-- 
-                       <li id="form">
-                        @Html.ActionLink("Форма для заявок", "Index", "Form")
-                         </li>
-                   -->
+            <div class="panel-collapse collapse navbar-collapse navbar-ex1-collapse font_navbar">
+                <ul class="nav navbar-nav navbar-right pull-right">
+
+                    <!--
+                        <li id="form">
+                         @Html.ActionLink("Форма для заявок", "Index", "Form")
+                          </li>
+                    -->
                     <li id="contact">
                         @Html.ActionLink("Контакты", "Index", "Contact")
                     </li>
-                    
-                    
-                    
-                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+
+
     @RenderBody()
-  
-        <div class="small-p">
+
+
+        <div class="small-p col-lg-12 col-md-12">
+            <center>
+                <div class="wrapper">
+                    <ul>
+                        <li class="vk">
+                            <a href="https://vk.com/rudyconvitebskgroup"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
+</li>
+                        <li class="instagram">
+                            <a href="https://www.instagram.com/rudyconby/"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </center>
+        </div>
+        <div class="small-p col-md-12 col-lg-12 col-md-12">
             <center><h5> &copy; RudyCon 2018</h5></center>
         </div>
 
-    
-
-
     <!-- /.container -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="@Url.Content("/js/bootstrap.js")"></script>
     <script src="@Url.Content("/js/modern-business.js")"></script>

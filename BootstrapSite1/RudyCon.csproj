@@ -175,7 +175,9 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\media.css" />
     <Content Include="css\modern-business.css" />
+    <Content Include="css\StyleSheet1.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -185,6 +187,7 @@
     <Content Include="images\fon1.jpg" />
     <Content Include="images\fon2.jpg" />
     <Content Include="images\image.png" />
+    <Content Include="images\logo1.png" />
     <Content Include="images\test2.jpg" />
     <Content Include="images\Контакты\aleksei.jpg" />
     <Content Include="images\Контакты\anton.jpg" />
@@ -246,6 +249,7 @@
     <Content Include="fonts\invader.ttf" />
     <Content Include="fonts\cheap.ttf" />
     <Content Include="fonts\pop warner.ttf" />
+    <None Include="Properties\PublishProfiles\pure_madness.pubxml" />
     <None Include="Properties\PublishProfiles\test.pubxml" />
     <None Include="Properties\PublishProfiles\test2.pubxml" />
     <None Include="Properties\PublishProfiles\xz.pubxml" />

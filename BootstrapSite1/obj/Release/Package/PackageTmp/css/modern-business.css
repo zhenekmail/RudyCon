@@ -9,146 +9,186 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 /* Global Styles */
 
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  padding-top: 50px;
- /* body padding for fixed top nav */
+    padding-top: 50px;
+    /* body padding for fixed top nav */
 }
-      
-a{
-      color: #ea3926;
+
+a {
+    color: red;
+}
+
+.font_menu {
+    font: 700 33pt "Feast of Flesh BB(RUS BY LYAJKA";
+    color: white;
+    text-shadow: black 2px 2px 0, black -4px -1px 0, black -1px 1px 0, black 1px -1px 0;
 }
 
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .tab-pane {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 /* Page Sections */
 .section,
 .section-colored {
-  padding: 50px 0;
+    padding: 50px 0;
 }
-.red-text{
+
+.red-text {
     color: rgba(251, 28, 0, 0.90);
 }
 
-.section{
-     background-color: #282828;
-
+.section {
+    background-color: #817d7d;
     /*background-image: url("/images/fon2.jpg");*/
 }
+
 .section-colored {
-     background-color: #313131;
-  /*  background-image: url("/images/fon3.jpg");*/
+    background-color: #313131;
+    /*  background-image: url("/images/fon3.jpg");*/
 }
 
 .sidebar {
-  margin-top: 40px;
+    margin-top: 40px;
 }
-.center-img {
-  display: block;
-  margin-top: 10px; /* Отступ сверху */
 
+.center-img {
+    display: block;
+    margin-top: 10px; /* Отступ сверху */
 }
+
 .sidebar ul {
-  border-radius: 5px;
-  padding: 5px;
-  border: 1px solid #535353;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #535353;
 }
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 50%;
+    height: 50%;
 }
 
 .item,
 .active,
 .carousel-inner {
-  height: 100%;
+    height: 100%;
 }
 
 .fill {
-  width: 100%;
-  height: 100%;
-  background-position: top;
-  background-size:  cover;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
 }
 
 /* Social Icons Styles */
 .list-social-icons {
-  margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .tooltip-social a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .facebook-link a:hover {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 .linkedin-link a:hover {
-  color: #007fb1;
+    color: #007fb1;
 }
 
 .twitter-link a:hover {
-  color: #39a9e0;
+    color: #39a9e0;
 }
 
 .google-plus-link a:hover {
-  color: #d14836;
+    color: #d14836;
 }
 
 /* Service Page Styles */
 .service-icon {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 /* 404 Page Styles */
 .error-404 {
-  font-size: 8em;
+    font-size: 8em;
 }
 
 /* Pricing Page Styles */
 .price {
-  font-size: 4em;
+    font-size: 4em;
 }
 
 .price-cents {
-  vertical-align: super;
-  font-size: 50%;
+    vertical-align: super;
+    font-size: 50%;
 }
 
 .price-month {
-  font-size: 35%;
-  font-style: italic;
+    font-size: 35%;
+    font-style: italic;
 }
 
 /* Footer Styles */
 footer {
-  margin: 50px 0;
+    margin: 50px 0;
 }
 
 /* Responsive Styles */
 @media (max-width: 767px) {
 
-  .carousel {
-    height: 70%;
- /* increases the carousel height so it looks good on phones */
-  }
- @font-face { 
-  font-family: 'Web font'; 
-  src: url('/fonts/feast.otf') format('feast'), 
-  font-weight: normal; 
-  font-style: normal; 
-}
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
+
+    .font_menu {
+        font: 700 20pt "Feast of Flesh BB(RUS BY LYAJKA";
+        color: white;
+        text-shadow: black 2px 2px 0, black -4px -1px 0, black -1px 1px 0, black 1px -1px 0;
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56.25%; /*пропорции видео 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 95%;
+            height: 95%;
+            padding-left: 15px;
+            padding-right: 0px;
+        }
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+        .map-responsive iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
 }
