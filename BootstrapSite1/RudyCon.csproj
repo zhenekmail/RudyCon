@@ -186,7 +186,6 @@
     <Content Include="images\3.jpg" />
     <Content Include="images\fon1.jpg" />
     <Content Include="images\fon2.jpg" />
-    <Content Include="images\icon_vk.png" />
     <Content Include="images\image.png" />
     <Content Include="images\logo1.png" />
     <Content Include="images\test2.jpg" />
@@ -204,7 +203,6 @@
     <Content Include="images\Контакты\yan.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\index.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
