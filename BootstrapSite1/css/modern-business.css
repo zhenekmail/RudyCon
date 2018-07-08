@@ -17,10 +17,6 @@ body {
     /* body padding for fixed top nav */
 }
 
-a {
-    color: red;
-}
-
 .font_menu {
     font: 700 33pt "Feast of Flesh BB(RUS BY LYAJKA";
     color: white;
@@ -48,7 +44,7 @@ a {
 }
 
 .section {
-    background-color: #817d7d;
+    background-color: white;
     /*background-image: url("/images/fon2.jpg");*/
 }
 
@@ -182,6 +178,8 @@ footer {
         padding-bottom: 56.25%;
         position: relative;
         height: 0;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
         .map-responsive iframe {

@@ -1,6 +1,8 @@
 ﻿body {
-    background: #282828; /* Цвет фона */
-    color: white; /* Цвет текста */
+    background: #174ad7; /* Цвет фона */
+    color: black; /* Цвет текста */
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .font_rudy {
@@ -51,6 +53,7 @@
 
 .font_contact_2 {
     font: 22pt Pop Warner;
+    color: #210f0f;
 }
 
 .font_contact_1 {
@@ -59,9 +62,53 @@
 }
 
 .partners {
-    opacity:1; 
+    opacity: 1;
 }
 
 .partners:hover {
-    opacity: .50;
+        opacity: .50;
 }
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0;
+    bottom: 0; /* Левый нижний угол */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+#footer div {
+        padding: 10px; /* Поля вокруг текста */
+        background: #39b54a; /* Цвет фона */
+}
+
+.footer {
+    background-color: #174ad7;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.footer .social{
+    height: 100px;
+    background-color: #174ad7;
+}
+
+.footer .text{
+    white-space: nowrap;
+    color: white;
+    background-color: #174ad7;
+}
+
+.header {
+    background-image: url('../images/1.jpg');
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.section-about {
+    background-color: #115714;
+    color:yellow;
+    /* background-image: url(/images/fon3.jpg); */
+}
+

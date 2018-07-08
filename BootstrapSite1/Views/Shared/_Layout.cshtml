@@ -24,53 +24,54 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="/home"><img src="/images/logo1.png" width="75" height="75" class="navbar-btn"></a>
+        
+            <div class="header">
+                <center>
+                    <img src="/images/logo1.png" width="320" height="320" class="navbar-btn">
+                </center>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Collect the nav links, forms, and other content for toggling
             <div class="panel-collapse collapse navbar-collapse navbar-ex1-collapse font_navbar">
                 <ul class="nav navbar-nav navbar-right pull-right">
-                    <!--
+                    
                         <li id="form">
                          @Html.ActionLink("Форма для заявок", "Index", "Form")
                           </li>
-                    -->
+                    
                     <li id="contact">
                         @Html.ActionLink("Контакты", "Index", "Contact")
                     </li>
-            </div>
+            </div>-->
             <!-- /.navbar-collapse -->
-        </div>
+        
         <!-- /.container -->
-    </nav>
 
 
     @RenderBody()
 
-
-        <div class="small-p col-lg-12 col-md-12">
+    <div class="footer">
+        <div class="social col-lg-12 col-md-12 col-sm-12">
             <center>
                 <div class="wrapper">
                     <ul>
                         <li class="vk">
                             <a href="https://vk.com/rudyconvitebskgroup"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-</li>
+                        </li>
                         <li class="instagram">
                             <a href="https://www.instagram.com/rudyconby/"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
                         </li>
-                        <li class="twitter">
-                            <a href=""><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <li class="youtube">
+                            <a href="https://www.youtube.com/channel/UCMUbRXkKwUPuWQxOUwxNdJA"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
             </center>
         </div>
-        <div class="small-p col-md-12 col-lg-12 col-md-12">
+
+        <div class="text col-md-12 col-lg-12 col-sm-12">
             <center><h5> &copy; RudyCon 2018</h5></center>
         </div>
-
+    </div>
     <!-- /.container -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="@Url.Content("/js/bootstrap.js")"></script>
