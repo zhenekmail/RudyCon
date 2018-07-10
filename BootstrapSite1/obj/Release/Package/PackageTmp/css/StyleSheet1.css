@@ -1,64 +1,50 @@
 ﻿body {
-    background: #174ad7; /* Цвет фона */
-    color: black; /* Цвет текста */
+    background: #8b8c8d; /* Цвет фона */
+    color: white; /* Цвет текста */
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
 }
 
-.font_rudy {
-    font: 22pt "Comic Sans MS";
-    color: yellow;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+@font-face{
+    font-family: "DaggerC Regular"; /* Имя шрифта */
+    src: url(/fonts/MainFonts/DAGGERC.otf) /* Путь к файлу со шрифтом */
 }
 
-.font_navbar {
-    font: 700 16pt scripts;
+@font-face {
+    font-family: AG_Futura; /* Имя шрифта */
+    src: url(/fonts/MainFonts/6789.ttf); /* Путь к файлу со шрифтом */
 }
 
-.font1 {
-    font: 17pt "Feast of Flesh BB(RUS BY LYAJKA";
-    letter-spacing: 1px;
+h1{
+    font-family: "DaggerC Regular";
 }
 
-.font2 {
-    font: 12pt "Comic Sans MS";
+h2{
+    font-family: "DaggerC Regular";
 }
 
-.font3 {
-    font: 700 20pt "A.C.M.E";
-    color: white;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+h3{
+    font-family: "DaggerC Regular";
 }
 
-.font4 {
-    font: 700 15pt "A.C.M.E";
+h4{
+    font-family: "DaggerC Regular";
 }
 
-.font5 {
-    font: 30pt "RUSCheap stealer";
+h5{
+    font-family: "DaggerC Regular";
 }
 
-.font_contact {
-    font: 25pt Pop Warner;
-    text-shadow: black 2px 2px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+p{
+    font-family: AG_Futura;
 }
 
-.shadow {
-    text-shadow: black 1px 1px 0, black 2px 2px 0, black 1px 1px 0, black 2px 2px 0, black 2px 2px 0;
+a{
+    font-family: AG_Futura;
 }
 
-.shadow_img {
-    box-shadow: 0 5px 20px black; /* Параметры тени */
-}
-
-.font_contact_2 {
-    font: 22pt Pop Warner;
-    color: #210f0f;
-}
-
-.font_contact_1 {
-    font: 17pt Cambria Math;
-    text-shadow: black 2px 2px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+.font1{
+    font-family: "DaggerC Regular";
 }
 
 .partners {
@@ -83,7 +69,6 @@
 }
 
 .footer {
-    background-color: #174ad7;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -91,31 +76,52 @@
 
 .footer .social{
     height: 100px;
-    background-color: #174ad7;
+    background-color: #d04b44;
 }
 
 .footer .text{
     white-space: nowrap;
     color: white;
-    background-color: #174ad7;
+    background-color: #d04b44;
 }
 
 .header {
-    background-image: url('../images/1.jpg');
+    background-image: url('../images/shapka-01.jpg');
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    background-size: cover;
+    height: 320px;
 }
 
 .section-about {
-    background-color: #115714;
-    color:yellow;
+    background-color: black;
     padding: 15px 15px 15px 15px;
-    /* background-image: url(/images/fon3.jpg); */
+}
+
+.section-gray{
+    background-color: #464747;
+}
+
+.section-red{
+    background-color: #d04b44;
+    height: 300px;
+}
+
+.section-partners{
+    background-color: black;
+}
+
+.navigate{
+     background-color: #d04b44;
+}
+
+.organizers{
+    background-color: black;
 }
 
 .thumb-wrap {
   position: relative;
-  padding-bottom: 75%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-bottom: 66%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
   padding-top: 30px;
   height: 0;
   overflow: hidden;

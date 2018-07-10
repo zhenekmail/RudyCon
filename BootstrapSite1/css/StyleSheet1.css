@@ -17,6 +17,7 @@
 
 h1{
     font-family: "DaggerC Regular";
+    margin: 0px;
 }
 
 h2{
@@ -37,6 +38,11 @@ h5{
 
 p{
     font-family: AG_Futura;
+}
+
+a{
+    font-family: AG_Futura;
+    color: white;
 }
 
 .font1{
@@ -90,7 +96,7 @@ p{
 }
 
 .section-about {
-    background-color: black;
+    background-color: #151516;
     padding: 15px 15px 15px 15px;
 }
 
@@ -104,17 +110,26 @@ p{
 }
 
 .section-partners{
-    background-color: black;
+    background-color: #151516;
 }
 
 .navigate{
      background-color: #d04b44;
+     border-top: 5px solid #151516;
 }
 
 .organizers{
-    background-color: black;
+    background-color: #151516;
 }
 
+.section-first{
+    background-color: #464747;
+    border-bottom: 10px solid black;
+}
+
+.white-box{
+    background-color: white;
+}
 .thumb-wrap {
   position: relative;
   padding-bottom: 66%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
