@@ -188,6 +188,7 @@
     <Content Include="images\fon2.jpg" />
     <Content Include="images\image.png" />
     <Content Include="images\logo1.png" />
+    <Content Include="images\shapka-01.jpg" />
     <Content Include="images\test2.jpg" />
     <Content Include="images\Контакты\aleksei.jpg" />
     <Content Include="images\Контакты\anton.jpg" />
@@ -249,6 +250,10 @@
     <Content Include="fonts\invader.ttf" />
     <Content Include="fonts\cheap.ttf" />
     <Content Include="fonts\pop warner.ttf" />
+    <Content Include="fonts\MainFonts\AGFUTC.ttf" />
+    <Content Include="fonts\MainFonts\AGFUTCB.ttf" />
+    <Content Include="fonts\MainFonts\DAGGERC.otf" />
+    <Content Include="fonts\MainFonts\6789.ttf" />
     <None Include="Properties\PublishProfiles\pure_madness.pubxml" />
     <None Include="Properties\PublishProfiles\test.pubxml" />
     <None Include="Properties\PublishProfiles\test2.pubxml" />
