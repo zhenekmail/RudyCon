@@ -18,8 +18,7 @@ it should always be at the center of the browser */
   top: 20%;
   left: 50%;
   width: 300px;  
-  transform: translate(-50%, 0%);
-  
+  transform: translate(-50%, 0%); 
 }
 
 /* Style the Un-order list by setting its list-style to none */
@@ -147,7 +146,7 @@ to align it properly */
 
 @media screen and (max-width: 640px){
   .wrapper {
-      width: 350px;
+      width: 300px;
   }
   .wrapper ul li{
       margin-top: 10px;

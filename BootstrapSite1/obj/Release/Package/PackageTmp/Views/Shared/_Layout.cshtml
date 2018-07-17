@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RudyCon - @ViewBag.Title</title>
 
-    <!-- Bootstrap
-    <link href="@Url.Content("/css/bootstrap.css")" rel="stylesheet">
-    <link href="@Url.Content("/css/modern-business.css")" rel="stylesheet"> -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -19,11 +16,15 @@
 
     @Styles.Render("~/css/bootstrap.css")
     @Styles.Render("~/css/modern-business.css")
-    @Styles.Render("~/css/StyleSheet1.css")
     @Styles.Render("~/css/media.css")
+    @Styles.Render("~/css/StyleSheet1.css")
+
+
 </head>
 <body>
-    <div class="header col-lg-12 col-md-12 col-sm-12"></div>
+    <div class="header col-lg-12 col-md-12 col-sm-12">
+        <center><img width="100%" src=\images\shapka-01.jpg></center>
+    </div>
 
     @RenderBody()
 
@@ -47,7 +48,7 @@
         </div>
 
         <div class="text col-md-12 col-lg-12 col-sm-12">
-            <center><p> &copy; RudyCon 2018</p></center>
+            <center><p>&copy;RudyCon 2018</p></center>
         </div>
     </div>
     <!-- /.container -->

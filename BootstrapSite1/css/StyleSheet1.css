@@ -41,7 +41,6 @@ p{
 }
 
 a{
-    font-family: AG_Futura;
     color: white;
 }
 
@@ -77,7 +76,7 @@ a{
 }
 
 .footer .social{
-    height: 100px;
+    height: 120px;
     background-color: #d04b44;
 }
 
@@ -88,11 +87,8 @@ a{
 }
 
 .header {
-    background-image: url('../images/shapka-01.jpg');
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    background-size: cover;
-    height: 320px;
 }
 
 .section-about {
@@ -102,6 +98,7 @@ a{
 
 .section-gray{
     background-color: #464747;
+    padding: 0px 0px 30px 0px;
 }
 
 .section-red{
@@ -116,10 +113,25 @@ a{
 .navigate{
      background-color: #d04b44;
      border-top: 5px solid #151516;
+     width: 100%;
+}
+
+.navigate .container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigate-text{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    color: #d04b44;
+    border-radius: 0px 45px 0px 0px;
 }
 
 .organizers{
     background-color: #151516;
+    padding-top: 15px;
 }
 
 .section-first{
