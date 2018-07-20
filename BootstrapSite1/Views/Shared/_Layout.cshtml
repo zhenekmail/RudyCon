@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RudyCon - @ViewBag.Title</title>
 
-    <!-- Bootstrap
-    <link href="@Url.Content("/css/bootstrap.css")" rel="stylesheet">
-    <link href="@Url.Content("/css/modern-business.css")" rel="stylesheet"> -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -19,58 +16,41 @@
 
     @Styles.Render("~/css/bootstrap.css")
     @Styles.Render("~/css/modern-business.css")
-    @Styles.Render("~/css/StyleSheet1.css")
     @Styles.Render("~/css/media.css")
+    @Styles.Render("~/css/StyleSheet1.css")
+
+
 </head>
 <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="/home"><img src="/images/logo1.png" width="75" height="75" class="navbar-btn"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="panel-collapse collapse navbar-collapse navbar-ex1-collapse font_navbar">
-                <ul class="nav navbar-nav navbar-right pull-right">
-                    <!--
-                        <li id="form">
-                         @Html.ActionLink("Форма для заявок", "Index", "Form")
-                          </li>
-                    -->
-                    <li id="contact">
-                        @Html.ActionLink("Контакты", "Index", "Contact")
-                    </li>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+    <div class="header col-lg-12 col-md-12 col-sm-12">
+        <center><img width="100%" src=\images\shapka-01.jpg></center>
+    </div>
 
     @RenderBody()
 
-
-        <div class="small-p col-lg-12 col-md-12">
+    <div class="footer">
+        <div class="social col-lg-12 col-md-12 col-sm-12">
             <center>
                 <div class="wrapper">
                     <ul>
                         <li class="vk">
                             <a href="https://vk.com/rudyconvitebskgroup"><i class="fab fa-vk fa-2x" aria-hidden="true"></i></a>
-</li>
+                        </li>
                         <li class="instagram">
                             <a href="https://www.instagram.com/rudyconby/"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
                         </li>
-                        <li class="twitter">
-                            <a href=""><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <li class="youtube">
+                            <a href="https://www.youtube.com/channel/UCMUbRXkKwUPuWQxOUwxNdJA"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
             </center>
         </div>
-        <div class="small-p col-md-12 col-lg-12 col-md-12">
-            <center><h5> &copy; RudyCon 2018</h5></center>
-        </div>
 
+        <div class="text col-md-12 col-lg-12 col-sm-12">
+            <center><p>&copy;RudyCon 2018</p></center>
+        </div>
+    </div>
     <!-- /.container -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="@Url.Content("/js/bootstrap.js")"></script>

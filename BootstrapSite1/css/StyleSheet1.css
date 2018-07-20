@@ -1,67 +1,157 @@
 ﻿body {
-    background: #282828; /* Цвет фона */
+    background: #8b8c8d; /* Цвет фона */
     color: white; /* Цвет текста */
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
-.font_rudy {
-    font: 22pt "Comic Sans MS";
-    color: yellow;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+@font-face{
+    font-family: "DaggerC Regular"; /* Имя шрифта */
+    src: url(/fonts/MainFonts/DAGGERC.otf) /* Путь к файлу со шрифтом */
 }
 
-.font_navbar {
-    font: 700 16pt scripts;
+@font-face {
+    font-family: AG_Futura; /* Имя шрифта */
+    src: url(/fonts/MainFonts/6789.ttf); /* Путь к файлу со шрифтом */
 }
 
-.font1 {
-    font: 17pt "Feast of Flesh BB(RUS BY LYAJKA";
-    letter-spacing: 1px;
+h1{
+    font-family: "DaggerC Regular";
+    margin: 0px;
 }
 
-.font2 {
-    font: 12pt "Comic Sans MS";
+h2{
+    font-family: "DaggerC Regular";
 }
 
-.font3 {
-    font: 700 20pt "A.C.M.E";
+h3{
+    font-family: "DaggerC Regular";
+}
+
+h4{
+    font-family: "DaggerC Regular";
+}
+
+h5{
+    font-family: "DaggerC Regular";
+}
+
+p{
+    font-family: AG_Futura;
+}
+
+a{
     color: white;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
 }
 
-.font4 {
-    font: 700 15pt "A.C.M.E";
-}
-
-.font5 {
-    font: 30pt "RUSCheap stealer";
-}
-
-.font_contact {
-    font: 25pt Pop Warner;
-    text-shadow: black 2px 2px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
-}
-
-.shadow {
-    text-shadow: black 1px 1px 0, black 2px 2px 0, black 1px 1px 0, black 2px 2px 0, black 2px 2px 0;
-}
-
-.shadow_img {
-    box-shadow: 0 5px 20px black; /* Параметры тени */
-}
-
-.font_contact_2 {
-    font: 22pt Pop Warner;
-}
-
-.font_contact_1 {
-    font: 17pt Cambria Math;
-    text-shadow: black 2px 2px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+.font1{
+    font-family: "DaggerC Regular";
 }
 
 .partners {
-    opacity:1; 
+    opacity: 1;
 }
 
 .partners:hover {
-    opacity: .50;
+        opacity: .50;
+}
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0;
+    bottom: 0; /* Левый нижний угол */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+#footer div {
+        padding: 10px; /* Поля вокруг текста */
+        background: #39b54a; /* Цвет фона */
+}
+
+.footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.footer .social{
+    height: 120px;
+    background-color: #d04b44;
+}
+
+.footer .text{
+    white-space: nowrap;
+    color: white;
+    background-color: #d04b44;
+}
+
+.header {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.section-about {
+    background-color: #151516;
+    padding: 15px 15px 15px 15px;
+}
+
+.section-gray{
+    background-color: #464747;
+    padding: 0px 0px 30px 0px;
+}
+
+.section-red{
+    background-color: #d04b44;
+    height: 300px;
+}
+
+.section-partners{
+    background-color: #151516;
+}
+
+.navigate{
+     background-color: #d04b44;
+     border-top: 5px solid #151516;
+     width: 100%;
+}
+
+.navigate .container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigate-text{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    color: #d04b44;
+    border-radius: 0px 45px 0px 0px;
+}
+
+.organizers{
+    padding-top: 15px;
+}
+
+.section-first{
+    background-color: #464747;
+    border-bottom: 10px solid black;
+}
+
+.white-box{
+    background-color: white;
+}
+.thumb-wrap {
+  position: relative;
+  padding-bottom: 66%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
