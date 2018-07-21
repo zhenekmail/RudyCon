@@ -142,11 +142,7 @@ footer {
     margin: 50px 0;
 }
 
-@media (max-width: 500px) {
-  img {
-    display: none;
-  }
-}
+
 @media (min-width:10px) and (max-width:992px) {
    .need-hide{
        display:none;
@@ -155,7 +151,10 @@ footer {
 
 /* Responsive Styles */
 @media (max-width: 767px) {
+    .margin_bottom_phone{
+     border-bottom: 10px solid #151516;
 
+    }
     .carousel {
         height: 80%;
         /* increases the carousel height so it looks good on phones */
@@ -168,6 +167,11 @@ footer {
         font: 700 20pt "Feast of Flesh BB(RUS BY LYAJKA";
         color: white;
         text-shadow: black 2px 2px 0, black -4px -1px 0, black -1px 1px 0, black 1px -1px 0;
+    }
+
+    .font_2{
+        font-family: AG_Futura;
+        font-size: 14px;
     }
 
     .video {

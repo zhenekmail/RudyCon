@@ -142,13 +142,27 @@ footer {
     margin: 50px 0;
 }
 
+@media (max-width: 500px) {
+  img {
+    display: none;
+  }
+}
+@media (min-width:10px) and (max-width:992px) {
+   .need-hide{
+       display:none;
+   }
+}
+
 /* Responsive Styles */
 @media (max-width: 767px) {
 
     .carousel {
-        height: 70%;
+        height: 80%;
         /* increases the carousel height so it looks good on phones */
     }
+    .hide{
+    display:none;
+}
 
     .font_menu {
         font: 700 20pt "Feast of Flesh BB(RUS BY LYAJKA";
