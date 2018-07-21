@@ -46,7 +46,7 @@ a{
 
 .font2{
     font-family: AG_Futura;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .font1{
@@ -112,6 +112,8 @@ a{
 
 .section-partners{
     background-color: #151516;
+         border-top: 5px solid #151516;
+
 }
 
 .navigate{
@@ -139,7 +141,7 @@ a{
 
 .section-first{
     background-color: #464747;
-    border-bottom: 10px solid black;
+   
 }
 
 .white-box{

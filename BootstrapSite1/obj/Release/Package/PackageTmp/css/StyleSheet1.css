@@ -44,6 +44,11 @@ a{
     color: white;
 }
 
+.font2{
+    font-family: AG_Futura;
+    font-size: 12px;
+}
+
 .font1{
     font-family: "DaggerC Regular";
 }
@@ -98,7 +103,6 @@ a{
 
 .section-gray{
     background-color: #464747;
-    padding: 0px 0px 30px 0px;
 }
 
 .section-red{
