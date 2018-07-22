@@ -61,7 +61,13 @@ body {
     display: block;
     margin-top: 25px; /* Отступ сверху */
 }
+.center-block{
+    margin-top:20px;
+}
 
+.center-block-2{
+    margin-top:25px;
+}
 .sidebar ul {
     border-radius: 5px;
     padding: 5px;
@@ -147,6 +153,16 @@ footer {
    .need-hide{
        display:none;
    }
+
+
+  
+}
+@media (min-width:992px) {
+   .hide_md{
+       display:none;
+   }
+
+  
 }
 
 /* Responsive Styles */
@@ -155,13 +171,30 @@ footer {
      border-bottom: 10px solid #151516;
 
     }
+   
+    .margine_all{
+        margin-left:0px;
+    }
+
     .carousel {
-        height: 80%;
+        height: 100%;
         /* increases the carousel height so it looks good on phones */
     }
+    .carousel-caption {
+          position: absolute;
+          bottom: 20px;
+          top: 10px;
+          z-index: 10;
+          padding-top: 0;
+          padding-bottom: 0px;
+          color: #ffffff;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    }
+
     .hide{
     display:none;
 }
+   
 
     .font_menu {
         font: 700 20pt "Feast of Flesh BB(RUS BY LYAJKA";

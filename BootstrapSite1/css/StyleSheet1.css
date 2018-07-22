@@ -107,6 +107,11 @@ a{
 .section-gray{
     background-color: #464747;
 }
+.section-org{
+    background-color: #464747;
+         border-bottom: 5px solid #151516;
+
+}
 
 .section-red{
     background-color: #d04b44;
@@ -115,7 +120,6 @@ a{
 
 .section-partners{
     background-color: #151516;
-         border-top: 5px solid #151516;
 
 }
 
@@ -237,6 +241,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 .margine_all{
     margin-left:100px;
+    position: center;
 }
 
 .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
@@ -265,7 +270,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 #controls{ /*положение блока всех управляющих элементов*/
-	margin: -20% 0 0 0;
+	margin: -13% 0 0 0;
 	width: 100%;
 	height: 0px;
 }
@@ -279,9 +284,9 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 #active{ /*расположение блока с переключателями*/
-	margin: 14% 0 0;
+	margin: 15% 0 0;
 	text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: -15px;
 }
 
 #active label:hover{ /*поведение чекбокса при наведении*/
@@ -313,7 +318,7 @@ label, a{ /*при наведении на стрелки или переклю�
 
 .poster{
     position:relative;
-    margin:100px auto;
+    margin:50px 0 0 0;
     background:rgba(255, 102, 0, 0.00);
     height:200px;
     width:150px;
