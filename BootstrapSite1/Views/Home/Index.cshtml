@@ -80,6 +80,48 @@
     <!-- /.container -->
 
 </div>
+
+<div class="section-red">
+    <div>
+        <ul class="vmcarousel-centered vmc-centered">
+            <li><img src="~/images/galery/1.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/2.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/3.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/4.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/5.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/6.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/7.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/8.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/9.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/10.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/11.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/12.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/13.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/14.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/15.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/16.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/17.jpg" alt="" width="300"></li>
+            <li><img src="~/images/galery/17.jpg" alt="" width="300"></li>
+        </ul>
+    </div>
+</div>
+
+@Styles.Render("~/galery/jquery.vm-carousel.css")
+@Scripts.Render("~/galery/jquery.min.js")
+<script src="~/galery/jquery.vm-carousel.js"></script>
+<script>
+   jQuery(function($){
+      $('.vmcarousel-centered').vmcarousel({
+         centered: true,
+         start_item: 1,
+         items_to_slide: 1,
+         min_items_to_show: 15,
+         autoplay: true,
+         infinite: true,
+      });
+   });
+</script>
+
 <!-- /.section -->
 <div class="navigate">
     <div class="container-fluid">

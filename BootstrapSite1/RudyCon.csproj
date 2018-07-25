@@ -180,6 +180,9 @@
     <Content Include="css\StyleSheet1.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="galery\jquery.min.js" />
+    <Content Include="galery\jquery.vm-carousel.css" />
+    <Content Include="galery\jquery.vm-carousel.js" />
     <Content Include="Global.asax" />
     <Content Include="images\1.jpg" />
     <Content Include="images\2.jpg" />
