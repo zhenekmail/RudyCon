@@ -10,8 +10,10 @@
                     <h1>RudyCon — это настоящий праздник для всех поклонников поп-культуры. </h1>
                     <h3>Дата проведения фестиваля — 25-26 августа.</h3>
                     <br />
-                    <p>  Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                         сериалов, настольных и компьютерных игр, фантастики, аниме и манги.</p>
+                    <p>
+                        Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
+                        сериалов, настольных и компьютерных игр, фантастики и манги.
+                    </p>
                     <p> Мульти фестиваль, основанный на формате серии легендарных американских шоу Comic Con.</p>
                 </center>
             </div>
@@ -21,9 +23,6 @@
     <!-- /.container -->
 </div>
 <!-- /.section-colored -->
-
-
-
 <!--COLUMNS-->
 <div class="section-first">
     <div class="container">
@@ -43,7 +42,7 @@
                     Прием заявок на регистрацию косплееров на RudyCon 2018 уже открыт.
                     Всю необходимую информацию можно найти в официальной группе vk.com/rudyconvitebskgroup
                 </p>
-                <h3 align="bottom" class="shadow font1"><a href="#Информация_для_косплееров"> Подробнее о номинациях >>></a></h3>
+                <h3 align="bottom" class="shadow font1"><a href="#cosplay"> Подробнее о номинациях >>></a></h3>
 
             </div>
 
@@ -58,7 +57,7 @@
                     для прессы.
                     Если Ваша организация заинтересована в спонсорской поддержке фестиваля, напишите менеджерам по
                     адресу rudycon@gmail.com
-                    <h3 class="shadow font1"> Подробнее о формах участиях <a href="#Для_партнёров">>>></a></h3>
+                    <h3 class="shadow font1"> <a href="#sponsor"> Подробнее о формах участия >>></a></h3>
                 </p>
             </div>
 
@@ -70,7 +69,7 @@
                     партнерством, аккредитацией журналистов, интервью с участниками или дополнительной информацией о выставке,
                     пожалуйста, обращайтесь к координаторам медиа.
                 </p>
-                <h3 class="shadow font1">Подробнее для прессы <a href="#Для_прессы">>>></a></h3>
+                <h3 class="shadow font1"> <a href="#press"> Подробнее для прессы >>></a></h3>
             </div>
 
         </div>
@@ -80,13 +79,52 @@
     <!-- /.container -->
 
 </div>
+
+<div class="section-red">
+    <div>
+        <ul class="vmcarousel-centered vmc-centered">
+            <li><img src="~/images/galery/1.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/2.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/3.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/4.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/5.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/6.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/7.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/8.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/9.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/10.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/11.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/12.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/13.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/14.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/15.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/16.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/17.jpg" alt="" height="200"></li>
+            <li><img src="~/images/galery/17.jpg" alt="" height="200"></li>
+        </ul>
+    </div>
+</div>
+
+@Scripts.Render("~/galery/jquery.min.js")
+@Scripts.Render("~/galery/jquery.vm-carousel.js")
+<script>
+    jQuery(function ($) {
+        $('.vmcarousel-centered').vmcarousel({
+            centered: true,
+            start_item: 1,
+            items_to_slide: 1,
+            min_items_to_show: 15,
+            autoplay: true,
+            infinite: true,
+        });
+    });
+</script>
+
 <!-- /.section -->
 <div class="navigate">
     <div class="container-fluid">
         <div class="navigate-text col-lg-3 col-md-3 col-sm-8">
             <center><h1>Новости</h1></center>
-        </div>
-        <div class="col-lg-9 col-md-9 col-sm-4">
         </div>
     </div>
 </div>
@@ -102,232 +140,107 @@
         <li data-target="#myCarousel" data-slide-to="5"></li>
         <li data-target="#myCarousel" data-slide-to="6"></li>
         <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-        <li data-target="#myCarousel" data-slide-to="9"></li>
-        <li data-target="#myCarousel" data-slide-to="10"></li>
-        <li data-target="#myCarousel" data-slide-to="11"></li>
-        <li data-target="#myCarousel" data-slide-to="12"></li>
+
 
     </ol>
 
 
     <div class="carousel-inner">
-
         <!--1-->
         <div class="item active">
             <!-- <div class="fill" style="background-image:url(/images/3.jpg);"></div>-->
-            
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                
-                    <h3>Крафт зона</h3>
-                До RUDYCON 2018 все меньше времени, а значит пора раскрывать карты. И, внимание, новинка номер один - крафт-зона!
-                Идея данной локации состоит в том, чтобы собрать на одной площадке и представить мастеров по изготовлению различного крафта: 
-                реквизиты для косплея, пошив костюмов, изготовление париков и много другое. У нас не принято ограничивать фантазию. 
-                На зоне можно будет принять участие в мастер-классе или лекции, а также приобрести товары!
-                Есть желание себя показать и на других посмотреть? Возможность представить свои товары, а также свое мастерство? Тогда скорее пишите куратору зоны <a href="https://vk.com/id19641790">Кате Лодяновой.</a>
-              
-             </div>
-           
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7 margine_feed" width="400" height="600" src="~/images/news/1.jpg">
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+                <h2>Масштабное событие</h2>
+                Настоящий праздник для всех поклонников индустрии развлечений свыше 1500.
             </div>
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="420" height="500" src="~/images/galery/17.jpg">
+            </div>
+
+
         </div>
 
         <!--2-->
         <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+                <h2>Косплей-шоу</h2>
+                Яркие косплей-дефиле, выступления музыкальных групп и розыгрыши на одной сцене.
             </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/13.jpg">
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="420" height="500" src="~/images/galery/1.jpg">
             </div>
         </div>
 
         <!--3-->
         <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+                <h2>Гик-ярмарка</h2>
+                На обширной зоне торговли можно приобрести тематические товары из разных вселенных.
             </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/2.jpg">
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="420" height="500" src="~/images/galery/2.jpg">
             </div>
         </div>
 
         <!--4-->
         <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+                <h2>Game-zone</h2>
+                Большая развлекательная зона с настольными и компьютерными играми, консолями и приставками.
             </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/5.jpg">
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="420" height="500" src="~/images/galery/5.jpg">
             </div>
         </div>
 
         <!--5-->
         <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+                <h2>Соревнования робототехники</h2>
+                Двухдневные соревнования роботов в разных категориях.
             </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/7.jpg">
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="420" height="500" src="~/images/galery/7.jpg">
             </div>
         </div>
 
         <!--6-->
         <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-                    
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+                <h2>Квест по всем зонам конвента</h2>
+                Замечательная возможность обойти каждый уголочек конвента!
             </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="420" height="500" src="~/images/galery/9.jpg">
             </div>
         </div>
 
         <!--7-->
         <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
 
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+
+                <h2>Крафт зона</h2>
+                На зоне можно будет принять участие в мастер-классе, а также приобрести товары!
             </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
+
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="410" height="490" src="~/images/galery/13.jpg">
             </div>
+
         </div>
 
         <!--8-->
         <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
+            <div class="carousel-caption container margine_title col-xs-9 font_2 col-md-4 col-md-offset-1">
+                <h2>Лекторы</h2>
+                Увлекательные лекции от специалистов индустрии.
             </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
+            <div class="container">
+                <img class="img-thumbnail col-md-offset-6 margine_feed_phone" width="420" height="500" src="~/images/galery/10.jpg">
             </div>
         </div>
-
-        <!--9-->
-        <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
-            </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
-            </div>
-        </div>
-
-        <!--10-->
-        <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
-            </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
-            </div>
-        </div>
-
-        <!--11-->
-        <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
-            </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
-            </div>
-        </div>
-
-        <!--12-->
-        <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
-            </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
-            </div>
-        </div>
-
-        <!--13-->
-        <div class="item">
-            <div class="carousel-caption  font_2 col-sm-8 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4 col-xs-10 col-xs-offset-1">
-                Какой-то текст с новостями или "особенностями конвента".
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов,
-                популярных фильмов, сериалов, настольных и компьютерных игр, фантастики, аниме и манги.
-                Первый витебский фестиваль индустрии развлечений, включающий в себя выставку комиксов...
-
-            </div>
-            <div>
-                <img class="img-thumbnail need-hide col-md-offset-7 col-lg-offset-7" width="380" height="600" src="~/images/galery/10.jpg">
-            </div>
-        </div>
-
-
     </div>
-
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="icon-prev"></span>
     </a>
@@ -336,14 +249,7 @@
     </a>
 </div>
 
-
-<!--GALERY-->
-<!--<div class="section-red">
-    <div class="container">
-        <h1 class="center-block">GALLERY</h1>
-    </div>
-</div>
-    -->
+<a name="cosplay"></a>
 <div class="navigate">
     <div class="container-fluid">
         <div class="navigate-text col-lg-3 col-md-3 col-sm-8">
@@ -366,8 +272,8 @@
                 <p>И вообще мы всех любим и всем рады.</p>
                 <br /><br /><br /><br /><br /><br /><br />
                 <h1>Подробнее можете узнать в нашей группе ВКонтакте <a href="https://vk.com/pages?oid=-151240192&p=%D0%92%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2">>>></a> или перейдя по ссылкам</h1>
-           
-             </div>
+
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <center><h2>Номинации для косплееров:</h2></center>
                 <div class="col-lg-3 col-md-3 col-sm-5"></div>
@@ -390,13 +296,13 @@
             </div>
         </div>
         <!-- /.row -->
-        <p><a name="Для_партнёров"></a></p>
     </div>
     <!-- /.container -->
 
 </div>
 <!-- /.section -->
 
+<a name="sponsor"></a>
 <div class="navigate">
     <div class="container-fluid">
         <div class="navigate-text col-lg-3 col-md-3 col-sm-8">
@@ -420,90 +326,46 @@
             </div>
 
 
-                <div class="col-md-4 col-sm-12">
-                    <h3> Аренда стендов </h3>
-                    Для участников выставки RudyCon доступны стенды размером от 2,5 кв.м. и торговые места.
-                </div>
+            <div class="col-md-4 col-sm-12">
+                <h3> Аренда стендов </h3>
+                Для участников выставки RudyCon доступны стенды размером от 2,5 кв.м. и торговые места.
+            </div>
 
-                <div class="col-md-4">
-                    <h3> Реклама на выставке </h3>
-                    Если Ваша организация заинтересована в спонсировании фестиваля RudyCon, пожалуйста, напишите нам по адресу rudycon@gmail.com
-                </div>
+            <div class="col-md-4">
+                <h3> Реклама на выставке </h3>
+                Если Ваша организация заинтересована в спонсировании фестиваля RudyCon, пожалуйста, напишите нам по адресу rudycon@gmail.com
+            </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3> Участие для специалистов </h3>
-                    Для компаний, не арендующих выставочную площадь, доступна услуга участия специалистов в выставке.
-                </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3> Участие для специалистов </h3>
+                Для компаний, не арендующих выставочную площадь, доступна услуга участия специалистов в выставке.
+            </div>
             <!-- /.row -->
         </div>
         <br />
     </div>
 </div>
 <!-- /.section-colored -->
-<!--OLD GALERY-->
-<!--<div class="section">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>RudyCon 2017</h2>
-                <hr>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                <img class="img-responsive img-home-portfolio" src="https://pp.userapi.com/c638020/v638020321/5954d/RZtgugV3mdA.jpg">
-
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                <img class="img-responsive img-home-portfolio" src="https://pp.userapi.com/c638020/v638020026/53c8a/OVtO125xk5s.jpg">
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                <img class="img-responsive img-home-portfolio" src="https://pp.userapi.com/c836125/v836125331/65f59/THaUpLNpBxI.jpg">
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                <img class="img-responsive img-home-portfolio" src="https://pp.userapi.com/c639318/v639318096/3b0c5/3IC3IZZ6FoU.jpg">
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                <img class="img-responsive img-home-portfolio" src="https://pp.userapi.com/c639318/v639318096/3b3d4/ICoXT-ydU3s.jpg">
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                <img class="img-responsive img-home-portfolio" src="https://pp.userapi.com/c639318/v639318096/3b455/XTFhSBOJdlw.jpg">
-
-            </div>
-        </div>
-
-
-    </div>
-
-
-</div>-->
 <!-- /.section -->
-
+<a name="press"></a>
 <div class="navigate">
     <div class="container-fluid">
         <div class="navigate-text col-lg-3 col-md-3 col-sm-8">
             <center><h1>Организаторы</h1></center>
-        </div>
-        <div class="col-lg-9 col-md-9 col-sm-4">
+
         </div>
     </div>
 </div>
-
-<div class="section-gray organizers">
-    <div class="container-fluid">
+<div class="container section-gray hide_md">
+    <br />
+    <center> <h3 class="center-block"><a href="/contact"> Список огранизаторов >>> </a> </h3></center>
+    <br />
+</div>
+<div class="section-org organizers col-xs-12 col-md-12 need-hide">
+    <div class="container-fluid col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-12">
         <div class="all container">
             <input checked type="radio" name="respond" id="desktop">
-            <article id="slider">
+            <article id="slider" class="col-xs-12 col-md-12">
                 <input checked type="radio" name="slider" id="switch1">
                 <input type="radio" name="slider" id="switch2">
                 <input type="radio" name="slider" id="switch3">
@@ -511,7 +373,7 @@
                 <div id="slides">
                     <div id="overflow">
                         <div class="image">
-                            <article>
+                            <article class="margine_all_1">
 
                                 <div class="container margine_all">
                                     <!--1-->
@@ -544,7 +406,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\anton.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/id29591271">Антон <br /> Бродинский</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Куратор группового дефиле</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Куратор группового дефиле</p>  </h5>
                                         </div>
                                     </div>
                                     <!--5-->
@@ -552,7 +414,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\aleksei.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/mr_clamp">Алексей<br />  Швец</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Куратор Game дефиле</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Куратор Game дефиле</p>  </h5>
                                         </div>
                                     </div>
                                     <!--6-->
@@ -584,7 +446,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\Artyom.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/id381485990">Артём <br /> Ржеутский</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Куратор тех. части/ Выставка</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Куратор тех. части/ Выставка</p>  </h5>
                                         </div>
                                     </div>
                                     <!--9-->
@@ -592,7 +454,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\stefan.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/id47503824">Стефан<br />  Шилов</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Куратор Steampunk дефиле</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Куратор Steampunk дефиле</p>  </h5>
                                         </div>
                                     </div>
                                     <!--10-->
@@ -600,7 +462,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\yan.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/john__y">Ян<br /> Мурашко</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Куратор сцены</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Куратор сцены</p>  </h5>
                                         </div>
                                     </div>
                                     <!--11-->
@@ -616,7 +478,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\den.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/id123122762">Денис<br />  Могучий</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Техподдержка</p></h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Техподдержка</p></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -629,7 +491,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\biruk.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/v.biryuk94">Владимир <br />  Бирюк</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Куратор сцены/постановка</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Куратор сцены/постановка</p>  </h5>
                                         </div>
                                     </div>
                                     <!--14-->
@@ -637,7 +499,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\kate.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/id19641790">Екатерина<br />  Лодянова</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Крафт/мастер-классы</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Крафт/мастер-классы</p>  </h5>
                                         </div>
                                     </div>
                                     <!--15-->
@@ -645,7 +507,7 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\denis.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/unlimitt">Денис<br />  Гаврилов</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Game zone</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Game zone</p>  </h5>
                                         </div>
                                     </div>
                                     <!--16-->
@@ -669,11 +531,11 @@
                                         <img class="img-thumbnail img-circle" width="300" height="600" src=\images\Контакты\valentina.jpg>
                                         <h3 class="shadow font_contact_2 text-center"><a href="https://vk.com/killendivey">Валентина <br />  Добрякова</a></p></h3>
                                         <div class="descr">
-                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block">Лектор</p>  </h5>
+                                            <h5 class="font_contact_1"><p align="center" class="center-img text-center center-block-2">Лектор</p>  </h5>
                                         </div>
                                     </div>
-                                    </div>
-                             </article>
+                                </div>
+                            </article>
 
                         </div>
                     </div>
