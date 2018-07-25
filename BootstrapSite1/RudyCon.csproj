@@ -282,6 +282,7 @@
     <Content Include="fonts\MainFonts\AGFUTCB.ttf" />
     <Content Include="fonts\MainFonts\DAGGERC.otf" />
     <Content Include="fonts\MainFonts\6789.ttf" />
+    <Content Include="fonts\MainFonts\6789.otf" />
     <None Include="Properties\PublishProfiles\my_rudycon.pubxml" />
     <None Include="Properties\PublishProfiles\pure_madness.pubxml" />
     <None Include="Properties\PublishProfiles\rudy.Somee.com.pubxml" />

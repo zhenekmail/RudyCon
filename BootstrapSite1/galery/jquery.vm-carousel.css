@@ -14,11 +14,11 @@
 .vmc-container.hide-controls .vmc-arrow-left, .vmc-container.hide-controls .vmc-arrow-right{display: none;}
 
 .vmc-arrow-left, .vmc-arrow-right{
-    position: absolute; top: 50%; left: -15px; width: 50px; height: 50px; margin-top: -25px; overflow: hidden;
+    position: absolute; top: 50%; left: 0px; width: 50px; height: 50px; margin-top: -25px; overflow: hidden;
     opacity: 0; border-radius: 50%; transition: opacity 0.3s ease;
     text-align: center;
 }
-.vmc-arrow-right{left: auto; right: -15px;}
+.vmc-arrow-right{left: auto; right: 0px;}
 .vmc-container:hover .vmc-arrow-left, .vmc-container:hover .vmc-arrow-right{opacity: 1;}
 
 .vmc-arrow-left:after, .vmc-arrow-right:after{
