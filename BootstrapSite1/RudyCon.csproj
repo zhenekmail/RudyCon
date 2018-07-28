@@ -208,6 +208,11 @@
     <Content Include="images\logo1.png" />
     <Content Include="images\news\1.jpg" />
     <Content Include="images\next.png" />
+    <Content Include="images\partners\komix_krama.png" />
+    <Content Include="images\partners\lamp_lavk.jpg" />
+    <Content Include="images\partners\oz.png" />
+    <Content Include="images\partners\panda.png" />
+    <Content Include="images\partners\x-com.jpg" />
     <Content Include="images\prev.png" />
     <Content Include="images\shapka-01.jpg" />
     <Content Include="images\Контакты\aleksei.jpg" />
@@ -283,6 +288,7 @@
     <Content Include="fonts\MainFonts\DAGGERC.otf" />
     <Content Include="fonts\MainFonts\6789.ttf" />
     <Content Include="fonts\MainFonts\6789.otf" />
+    <Content Include="images\partners\Thumbs.db" />
     <None Include="Properties\PublishProfiles\my_rudycon.pubxml" />
     <None Include="Properties\PublishProfiles\pure_madness.pubxml" />
     <None Include="Properties\PublishProfiles\rudy.Somee.com.pubxml" />
