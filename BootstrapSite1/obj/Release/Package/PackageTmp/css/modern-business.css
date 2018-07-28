@@ -217,11 +217,6 @@ footer {
         text-shadow: black 2px 2px 0, black -4px -1px 0, black -1px 1px 0, black 1px -1px 0;
     }
 
-    .font_2{
-        font-family: AG_Futura;
-        font-size: 14px;
-    }
-
     .video {
         position: relative;
         padding-bottom: 56.25%; /*пропорции видео 16:9 */
