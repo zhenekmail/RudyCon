@@ -353,13 +353,13 @@
       <publishTime>07/25/2018 18:07:24</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
-      <publishTime>07/28/2018 14:24:09</publishTime>
+      <publishTime>07/28/2018 17:42:05</publishTime>
     </File>
     <File Include="Views/Form/Index.cshtml">
       <publishTime>07/25/2018 18:07:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/28/2018 17:21:43</publishTime>
+      <publishTime>07/28/2018 19:20:17</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/25/2018 18:07:27</publishTime>

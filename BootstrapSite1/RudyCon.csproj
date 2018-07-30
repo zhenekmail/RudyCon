@@ -196,7 +196,10 @@
     <Content Include="images\galery\15.jpg" />
     <Content Include="images\galery\16.jpg" />
     <Content Include="images\galery\17.jpg" />
+    <Content Include="images\galery\18.jpg" />
+    <Content Include="images\galery\19.jpg" />
     <Content Include="images\galery\2.jpg" />
+    <Content Include="images\galery\20.jpg" />
     <Content Include="images\galery\3.jpg" />
     <Content Include="images\galery\4.jpg" />
     <Content Include="images\galery\5.jpg" />
@@ -210,6 +213,7 @@
     <Content Include="images\next.png" />
     <Content Include="images\partners\komix_krama.png" />
     <Content Include="images\partners\lamp_lavk.jpg" />
+    <Content Include="images\partners\OssaKozma_logo_no_fon.png" />
     <Content Include="images\partners\oz.png" />
     <Content Include="images\partners\panda.png" />
     <Content Include="images\partners\x-com.jpg" />
