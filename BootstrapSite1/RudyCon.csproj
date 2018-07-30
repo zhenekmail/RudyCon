@@ -171,22 +171,11 @@
     <Compile Include="ViewModels\AccountViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\media.css" />
-    <Content Include="css\modern-business.css" />
-    <Content Include="css\StyleSheet1.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="galery\jquery.min.js" />
     <Content Include="galery\jquery.vm-carousel.css" />
     <Content Include="galery\jquery.vm-carousel.js" />
     <Content Include="Global.asax" />
-    <Content Include="images\1.jpg" />
-    <Content Include="images\2.jpg" />
-    <Content Include="images\3.jpg" />
     <Content Include="images\galery\1.jpg" />
     <Content Include="images\galery\10.jpg" />
     <Content Include="images\galery\11.jpg" />
@@ -236,7 +225,6 @@
     <Content Include="images\Контакты\liza.jpg" />
     <Content Include="images\Контакты\oleg.jpg" />
     <Content Include="images\Контакты\Polina.jpg" />
-    <Content Include="images\Контакты\sergei.jpg" />
     <Content Include="images\Контакты\stefan.jpg" />
     <Content Include="images\Контакты\valentina.jpg" />
     <Content Include="images\Контакты\valik.jpg" />
@@ -263,13 +251,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -279,17 +260,6 @@
     <Content Include="Views\Form\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\feast.otf" />
-    <Content Include="fonts\comix.ttf" />
-    <Content Include="fonts\Agane.ttf" />
-    <Content Include="fonts\Arch.ttf" />
-    <Content Include="fonts\CevicheOne-Regular.otf" />
-    <Content Include="fonts\dk.otf" />
-    <Content Include="fonts\The capt.otf" />
-    <Content Include="fonts\hermano.ttf" />
-    <Content Include="fonts\invader.ttf" />
-    <Content Include="fonts\cheap.ttf" />
-    <Content Include="fonts\pop warner.ttf" />
     <Content Include="fonts\MainFonts\AGFUTC.ttf" />
     <Content Include="fonts\MainFonts\AGFUTCB.ttf" />
     <Content Include="fonts\MainFonts\DAGGERC.otf" />
