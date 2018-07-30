@@ -65,7 +65,7 @@
       <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/RudyCon.dll">
-      <publishTime>07/28/2018 15:20:25</publishTime>
+      <publishTime>07/30/2018 15:43:07</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>07/25/2018 18:07:31</publishTime>
@@ -110,7 +110,7 @@
       <publishTime>07/26/2018 00:13:39</publishTime>
     </File>
     <File Include="css/StyleSheet1.css">
-      <publishTime>07/28/2018 17:26:17</publishTime>
+      <publishTime>07/30/2018 16:09:00</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>07/25/2018 18:07:21</publishTime>
@@ -223,8 +223,17 @@
     <File Include="images/galery/17.jpg">
       <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
+    <File Include="images/galery/18.jpg">
+      <publishTime>07/30/2018 13:50:23</publishTime>
+    </File>
+    <File Include="images/galery/19.jpg">
+      <publishTime>07/30/2018 13:52:14</publishTime>
+    </File>
     <File Include="images/galery/2.jpg">
       <publishTime>07/25/2018 18:07:21</publishTime>
+    </File>
+    <File Include="images/galery/20.jpg">
+      <publishTime>07/30/2018 13:53:26</publishTime>
     </File>
     <File Include="images/galery/3.jpg">
       <publishTime>07/25/2018 18:07:21</publishTime>
@@ -256,6 +265,15 @@
     <File Include="images/news/1.jpg">
       <publishTime>07/25/2018 23:08:01</publishTime>
     </File>
+    <File Include="images/news/2.jpg">
+      <publishTime>07/30/2018 14:01:54</publishTime>
+    </File>
+    <File Include="images/news/3.jpg">
+      <publishTime>07/30/2018 14:02:53</publishTime>
+    </File>
+    <File Include="images/news/4.jpg">
+      <publishTime>07/30/2018 15:36:18</publishTime>
+    </File>
     <File Include="images/next.png">
       <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
@@ -264,6 +282,9 @@
     </File>
     <File Include="images/partners/lamp_lavk.jpg">
       <publishTime>07/28/2018 14:26:23</publishTime>
+    </File>
+    <File Include="images/partners/OssaKozma_logo_no_fon.png">
+      <publishTime>07/30/2018 13:42:32</publishTime>
     </File>
     <File Include="images/partners/oz.png">
       <publishTime>07/28/2018 14:26:23</publishTime>
@@ -353,13 +374,13 @@
       <publishTime>07/25/2018 18:07:24</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
-      <publishTime>07/28/2018 17:42:05</publishTime>
+      <publishTime>07/30/2018 15:20:30</publishTime>
     </File>
     <File Include="Views/Form/Index.cshtml">
       <publishTime>07/25/2018 18:07:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/28/2018 19:20:17</publishTime>
+      <publishTime>07/30/2018 16:14:03</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/25/2018 18:07:27</publishTime>
