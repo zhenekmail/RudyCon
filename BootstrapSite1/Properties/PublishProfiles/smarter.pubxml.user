@@ -11,85 +11,85 @@
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:27</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:28</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:28</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:30</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Google.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:32</publishTime>
     </File>
     <File Include="bin/RudyCon.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/31/2018 12:45:38</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:31</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:33</publishTime>
     </File>
     <File Include="css/bootstrap-theme.css">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -98,22 +98,22 @@
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="css/bootstrap.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:20</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="css/media.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="css/modern-business.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/26/2018 00:13:39</publishTime>
     </File>
     <File Include="css/StyleSheet1.css">
-      <publishTime>07/31/2018 12:23:58</publishTime>
+      <publishTime>07/31/2018 13:40:34</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="fonts/Agane.ttf">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -155,19 +155,19 @@
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/MainFonts/6789.otf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 22:45:48</publishTime>
     </File>
     <File Include="fonts/MainFonts/6789.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="fonts/MainFonts/AGFUTC.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="fonts/MainFonts/AGFUTCB.ttf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="fonts/MainFonts/DAGGERC.otf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="fonts/pop warner.ttf">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -176,16 +176,16 @@
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="galery/jquery.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 21:16:21</publishTime>
     </File>
     <File Include="galery/jquery.vm-carousel.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 23:24:06</publishTime>
     </File>
     <File Include="galery/jquery.vm-carousel.js">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/1.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -197,205 +197,205 @@
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/galery/1.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/10.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/11.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/12.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/13.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/14.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/15.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/16.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/17.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/18.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 13:50:23</publishTime>
     </File>
     <File Include="images/galery/19.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 13:52:14</publishTime>
     </File>
     <File Include="images/galery/2.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/20.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 13:53:26</publishTime>
     </File>
     <File Include="images/galery/3.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/4.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/5.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/6.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/7.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/8.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/galery/9.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/image.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/logo1.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/news/1.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 23:08:01</publishTime>
     </File>
     <File Include="images/news/2.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 14:01:54</publishTime>
     </File>
     <File Include="images/news/3.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 14:02:53</publishTime>
     </File>
     <File Include="images/news/4.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 15:36:18</publishTime>
     </File>
     <File Include="images/next.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/partners/komix_krama.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 14:26:23</publishTime>
     </File>
     <File Include="images/partners/lamp_lavk.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 14:26:23</publishTime>
     </File>
     <File Include="images/partners/OssaKozma_logo_no_fon.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 13:42:32</publishTime>
     </File>
     <File Include="images/partners/oz.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 14:26:23</publishTime>
     </File>
     <File Include="images/partners/panda.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 14:26:23</publishTime>
     </File>
     <File Include="images/partners/Thumbs.db">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 14:26:23</publishTime>
     </File>
     <File Include="images/partners/x-com.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 14:26:23</publishTime>
     </File>
     <File Include="images/prev.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/shapka-01.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/aleksei.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/anton.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/Artyom.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/biruk.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/dasha.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/den.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/denis.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/evgene.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/inga.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/inna.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/kate.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/liza.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/oleg.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/Polina.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/sergei.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="images/Контакты/stefan.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:21</publishTime>
     </File>
     <File Include="images/Контакты/valentina.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:22</publishTime>
     </File>
     <File Include="images/Контакты/valik.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:22</publishTime>
     </File>
     <File Include="images/Контакты/vlada.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:22</publishTime>
     </File>
     <File Include="images/Контакты/yan.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:22</publishTime>
     </File>
     <File Include="js/bootstrap.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:22</publishTime>
     </File>
     <File Include="js/bootstrap.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:22</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:24</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/30/2018 15:20:30</publishTime>
     </File>
     <File Include="Views/Form/Index.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/31/2018 12:41:01</publishTime>
+      <publishTime>07/31/2018 12:44:07</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:27</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 13:13:42</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:27</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/25/2018 18:07:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/28/2018 15:54:20</publishTime>
     </File>
   </ItemGroup>
 </Project>
