@@ -171,6 +171,10 @@
     <Compile Include="ViewModels\AccountViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\media.css" />
+    <Content Include="css\modern-business.css" />
+    <Content Include="css\StyleSheet1.css" />
     <Content Include="favicon.ico" />
     <Content Include="galery\jquery.min.js" />
     <Content Include="galery\jquery.vm-carousel.css" />
