@@ -103,8 +103,18 @@ a{
 .header {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    overflow: hidden;
+    position: center;
 }
 
+.header img{
+    width: 100%;
+    min-width: 800px;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
 .section-about {
     background-color: #151516;
     padding: 15px 15px 15px 15px;
