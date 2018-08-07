@@ -180,6 +180,7 @@
     <Content Include="galery\jquery.vm-carousel.css" />
     <Content Include="galery\jquery.vm-carousel.js" />
     <Content Include="Global.asax" />
+    <Content Include="google91bbc9865df33777.html" />
     <Content Include="images\galery\1.jpg" />
     <Content Include="images\galery\10.jpg" />
     <Content Include="images\galery\11.jpg" />
@@ -207,12 +208,16 @@
     <Content Include="images\news\3.jpg" />
     <Content Include="images\news\4.jpg" />
     <Content Include="images\next.png" />
+    <Content Include="images\partners\Easy_shop.png" />
     <Content Include="images\partners\komix_krama.png" />
-    <Content Include="images\partners\lamp_lavk.jpg" />
+    <Content Include="images\partners\komix_krama_3.png" />
+    <Content Include="images\partners\lamp_lavk.png" />
     <Content Include="images\partners\OssaKozma_logo_no_fon.png" />
-    <Content Include="images\partners\oz.png" />
+    <Content Include="images\partners\ossa_new.png" />
+    <Content Include="images\partners\oz_1.png" />
     <Content Include="images\partners\panda.png" />
-    <Content Include="images\partners\x-com.jpg" />
+    <Content Include="images\partners\papa_shef.png" />
+    <Content Include="images\partners\x-com.png" />
     <Content Include="images\prev.png" />
     <Content Include="images\shapka-01.jpg" />
     <Content Include="images\Контакты\aleksei.jpg" />
@@ -269,7 +274,7 @@
     <Content Include="fonts\MainFonts\DAGGERC.otf" />
     <Content Include="fonts\MainFonts\6789.ttf" />
     <Content Include="fonts\MainFonts\6789.otf" />
-    <Content Include="images\partners\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\hoster.by.pubxml" />
     <None Include="Properties\PublishProfiles\my_rudycon.pubxml" />
     <None Include="Properties\PublishProfiles\pure_madness.pubxml" />
     <None Include="Properties\PublishProfiles\rudy.Somee.com.pubxml" />
