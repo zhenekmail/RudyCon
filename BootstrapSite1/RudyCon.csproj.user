@@ -12,6 +12,7 @@
     <NameOfLastUsedPublishProfile>smarter</NameOfLastUsedPublishProfile>
     <ProjectView>ShowAllFiles</ProjectView>
     <WebStackScaffolding_DbContextTypeFullName>RudyCon_Site.Context.ApplicationDataContext</WebStackScaffolding_DbContextTypeFullName>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

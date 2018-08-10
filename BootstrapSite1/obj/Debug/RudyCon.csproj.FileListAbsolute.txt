@@ -215,6 +215,8 @@ D:\Rudy\BootstrapSite1\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Rudy\BootstrapSite1\bin\Microsoft.Owin.Security.Google.xml
 D:\Rudy\BootstrapSite1\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Rudy\BootstrapSite1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Rudy\BootstrapSite1\obj\Debug\RudyCon.csprojResolveAssemblyReference.cache
 D:\Rudy\BootstrapSite1\obj\Debug\RudyCon.dll
 D:\Rudy\BootstrapSite1\obj\Debug\RudyCon.pdb
+D:\rudy\BootstrapSite1\obj\Debug\RudyCon.csprojAssemblyReference.cache
+D:\rudy\BootstrapSite1\obj\Debug\RudyCon.csproj.CoreCompileInputs.cache
+D:\rudy\BootstrapSite1\obj\Debug\RudyCon.csproj.CopyComplete
